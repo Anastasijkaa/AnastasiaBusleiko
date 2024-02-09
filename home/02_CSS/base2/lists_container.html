@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        .ul {
+            width: 350px;
+        }
+        .upper {
+            list-style: upper-roman; font-weight: bold;
+        } 
+        .low {
+            list-style: lower-roman;
+        }
+        .wrapper {
+            width: 400px; 
+            background-color: black; 
+            color: green; 
+            max-height: 75px;
+            overflow: auto;
+        }
+        
+    </style>
+<ul>
+    <li class="upper">Контейнер с кодом</li>
+        <ul>
+            <li class="low">Цвет фона: чёрный</li>
+            <li class="low">Цвет текста: зелёный</li>
+            <li class="low">Ширина:400px</li>
+            <li class="low">Максимальная высота контейнера: 4-е строки</li>
+            <li class="low">Переполнение: автоматическое</li>
+        </ul>
+    </li>
+    <li class="upper">Список</li>
+        <ul>
+            <li class="low">Ширина: 350px</li>
+            <li class="low">Тип списка: римские цифры</li>
+            <li class="low">Тип вложенного списка: римские нижний регистр цифры</li>
+        </ul>
+</ul>
+<div class="wrapper">
+        #!/user/bin/env python <br>
+        print 'Hello. I am a python program.' <br>
+        name = raw_input("What is your name?") <br>
+        print "Hello there," + name + "!"
+</div>
+
+</body>
+</html>
